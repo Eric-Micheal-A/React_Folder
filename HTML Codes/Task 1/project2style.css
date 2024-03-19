@@ -1,0 +1,13 @@
+table{
+    border-collapse:collapse;
+    width:40%;
+    text-align:center;
+}
+td{
+    border-bottom:1px solid gray;
+    padding:15px;
+}
+th{
+    padding:15px;
+    background-color: greenyellow;
+}

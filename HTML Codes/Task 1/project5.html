@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header div class="header-container">
+        <div class="items">
+            <a href="#">HOME</a>
+            <a href="#">BAND</a>
+            <a href="#">TOUR</a>
+            <a href="#">CONTACT</a>
+            <select id="sel">
+                <option value="m">More</option>
+                <option value="a">January</option>
+                <option value="b">July</option>
+                <option value="c">Decembet</option>   
+            </select>
+        </div>
+    </header>
+    <center>
+        <h3 style="color: white; font-weight: bold;">This is a Main Page</h3><br>
+        <h3 style="color: white; font-weight: bold;">The Home Page of this Project</h3>
+    </center>
+    <center>
+
+        <div class="container2">
+            <ul>
+                <li>This is First Line</li>
+                <hr>
+                <li>This is Second Line</li>
+                <hr>
+                <li>This is Third Line</li>
+            </ul>
+        </div>
+    </center>
+    <br>
+    <div class="container3">
+        <div class="img1">
+            <img src="img11.jpeg" width="200px" height="300px"> 
+            <h3>Image 1 is here</h3>   
+            <h3>Date: 19/03/2003</h3>
+        </div>
+        <div class="img2">
+            <img src="img2.jpeg" width="200px" height="300px">
+       <h3>Image 2 is here</h3>
+       <h3>Date: 12/08/2003</h3>
+        </div>
+        <div class="img3">
+            <img src="img3.jpeg" width="200px" height="300px">
+       <h3>Image 3 is here</h3>
+       <h3>Date: 2/12/2003</h3>
+        </div>
+    </div>
+</body>
+<style>
+    body{
+        background-color: black;
+    }
+    .header-container
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .items
+    {
+        justify-content:space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    option{
+        color:white;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        background-color: aliceblue;
+        text-align: center;
+        width: 70%;
+    }
+    .container2 ul
+    {
+        padding: 0;
+    }
+    .container2 li{
+        list-style-type: none;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .container3 
+    {
+        border: 1px solid white;
+        display:flex;
+        padding:20px;
+        align-items: center;
+        column-gap: 40px;
+        justify-content: space-evenly;
+    }
+    h3{
+        color: white;
+    }
+
+</style>
+</html>
+

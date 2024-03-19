@@ -1,0 +1,30 @@
+.head{
+    position:static;
+    border:2px solid black;
+    background-color: black;
+    color:white;
+    text-align: center;
+    top:0;
+}
+span{
+    border: 10px solid gray;
+    background-color:gray;
+    text-align: center;
+    display:block;
+    word-spacing: 19px;
+}
+h2{
+    text-align: center;
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h4{
+    text-align:center;
+    font-size:30px;
+}
+img{
+    height:500px;
+    width:800px;
+    padding:50px 200px 400px 400px;
+}

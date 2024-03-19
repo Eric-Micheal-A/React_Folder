@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="car">
+          <div class="ccc"> <img src="car-removebg-preview.png"></div> 
+        </div>
+        <div class="tiire">
+           <div class="tire"><img src="tir-removebg-preview.png"></div></div>
+          <div class="tiire2"><div class="tire2"><img src="tir-removebg-preview.png"></div>
+        </div>  
+          <div class="treee"> <img src="tree-removebg-preview.png"></div> 
+        </div>
+    </div>
+</body>
+
+<style>
+     @keyframes rotate
+    {
+        from{
+            transform: rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        } 
+    }
+    @keyframes move{
+        from{
+            transform: translateX(0px);
+        }
+        to{
+            transform:translateX(-700px);
+        }
+    }
+    @keyframes bounse
+    {
+        0%,100%
+        {
+            transfrom:translateY(0px);
+        }
+        50%
+        {
+            transform:translateY(-300px);
+        }
+    }
+
+.container
+{
+    display:flex;
+    background-image: url("back.png");
+     background-repeat: no-repeat;
+    /* background-position: content;   */
+    border:5px solid black;
+    height:400px;
+    width: 725px;
+    justify-content: center;
+    /* background-size:1550px; */
+}
+body
+{
+    margin-top:200px;
+}
+
+.ccc img{
+    margin-top: 275px;
+    z-index:10;
+}
+.tire img
+{
+    z-index: 10;
+    margin-top: 340px;
+    margin-right:10px;
+    height: 60px;
+    width: 60px;
+    animation:rotate 1s infinite linear;
+}
+.tire2 img{
+    z-index: 10;
+    margin-top:340px;
+    margin-left:-170px;
+    height: 60px;
+    width: 60px;
+    animation:rotate 1s infinite linear;
+}
+.tiire
+{
+    z-index: 10;
+    transform: translateX(-247px);
+}
+.treee
+{
+    width:5px;
+    height:200px;
+    animation:move 1s infinite linear;
+}
+</style>
+</html>

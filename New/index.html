@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sun"><img src="sun-removebg-preview.png"></div>
+        <div class="moon"><img src="moon-removebg-preview.png"></div>
+    </div>
+</body>
+<style>
+        @keyframes rotate
+    {
+        from{
+            transform: rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        } 
+    }
+    @keyframes move{
+        from{
+            transform: translateX(600px);
+        }
+        to{
+            transform:translateX(-300px);
+        }
+    }
+    @keyframes bounse
+    {
+        0%,100%
+        {
+            transfrom:translateY(0px);
+        }
+        50%
+        {
+            transform:translateY(-300px);
+        }
+    }
+    body
+    {
+        background-color: aqua;
+    }
+    .container
+    {
+        display:flex;
+        flex-direction: column;
+        row-gap: 500px;
+        align-items: center;
+    }
+
+    .sun img{
+        width:100px;
+        height:100px;
+    }
+    .moon img{
+        width:100px;
+        height:100px;
+    }
+
+</style>
+</html>

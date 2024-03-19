@@ -1,0 +1,60 @@
+.main
+{
+    border: 1px solid rgb(74, 75, 79);
+    display:flex;
+    opacity: 0.7;
+    justify-content: space-between;
+    background-color:rgb(74, 75, 79)
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    opacity: 5;
+    padding-left: 70px;
+}
+.ce{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-right:20px;
+    color: white;
+}
+
+.container1
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.flex_item
+{
+    text-align: center;
+    border:1px solide green;
+    padding: 20px;
+}
+.container1
+{
+    text-align: center;
+    display:block;
+    word-spacing: 19px;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-right: 70px;
+}
+body{
+    position: sticky;
+    background-image:url("william-daigneault-Cd84YdL9px8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
